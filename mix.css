@@ -1,0 +1,95 @@
+#id {
+    background-color:blue;
+    color:white;
+}
+.class {
+    /* background-color:red; */
+    /* color:white; */
+    /* font-size: 24px; */
+    border: 1px solid #ddd;
+    padding:10px;
+    text-align: center;
+}
+
+#imgId{
+    border: 5px green solid;
+    border-radius: 50px;
+}
+table{
+    width: 50%;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    margin: 50px 20px;
+}
+
+tr:nth-child(2){
+    background-color: #ccc;
+}
+tr:hover{
+    background-color: aquamarine;
+}
+
+.tdClass{
+    border: 1px solid #ddd;
+    padding:10px;
+    text-align: center;
+}
+.btn{
+    background-color:#6d5;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    font-size:20px;
+}
+.btn:hover{
+    background-color: #a29;
+
+}
+
+/* Website Grid Layout */
+header{
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px;
+}
+nav{
+    background-color: #222;
+    padding: 20px
+}
+nav ul{
+    display: inline;
+    list-style: none;
+    text-align: center;
+    color: #fff;
+}
+ul li {
+    display: inline;
+    padding: 10px;
+
+}
+.main{
+    margin-top: 10px;
+}
+.column{
+    float: left;
+    width: 32.33%;
+    background-color: #f1f1f1;
+    text-align: center;
+    height: 200px;
+}
+
+.column-b{
+    margin: 0px 10px;
+    float: left;
+    width: 32.33%;
+    background-color: #f1f1f1;
+    text-align: center;
+    height: 200px;
+}
+footer{
+    margin-top: 50%;
+    background-color: #666;
+    text-align: center;
+    padding: 20px;
+}

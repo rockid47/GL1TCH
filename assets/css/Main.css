@@ -1,0 +1,52 @@
+h6{
+    color: green;
+    }
+    #us{
+        color: blue;
+    }
+    .everyone{
+        background-color: rgb(31, 212, 25);
+        color: rgb(223, 27, 27);
+    }
+    .form-class label{
+        color: purple;
+    }
+    .deadpool{
+       color: green;
+    }
+    .date{
+        background-color: rgb(159, 159, 231);
+    }
+    .box{
+        background-color: violet;
+        padding: 50px;
+        border: 5px solid black;
+        
+        margin: 50px 10px 10px 10px;
+        margin-top: 10px;   
+     }
+     .everyone :hover{
+        background-color: blue;
+        opacity: 0.5px;
+     }
+     input:focus{
+         border-color: blue;
+         background-color: aqua;
+
+     }
+     input[placeholder="email"]{
+         padding: 20px;
+     }
+     body{
+         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+         
+     }
+    
+    /* Media Query */
+    @media (max-width: 600px){
+        body{
+            background-color: red;
+            
+    }
+  
+
